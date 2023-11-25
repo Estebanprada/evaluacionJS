@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menú de Ferretería</title>
+  <!-- Título de la página que aparecerá en la pestaña del navegador -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Enlace a una hoja de estilo externa llamada "style.css" -->
+  <script src="javascript/eva.js"></script>
+  <!-- Inclusión de un archivo JavaScript externo llamado "eva.js" -->
+</head>
++
+<body>
+  <!-- Cuerpo del documento HTML -->
+
+  <div class="contenedor">
+    <!-- Un contenedor principal con la clase "contenedor" -->
+
+    <h1>FERRETERIA ESTEBAN</h1>
+    <!-- Encabezado principal de la ferretería -->
+
+    <label for="producto">Seleccione de nuestro menú un producto de la Ferretería:</label>
+    <!-- Una etiqueta de texto para indicar la acción de seleccionar un producto -->
+
+    <select id="producto">
+      <!-- Un elemento de lista desplegable (select) con el id "producto" -->
+      <option value="martillo">Martillo: $15000</option>
+      <!-- Opción de martillo con su valor y precio -->
+      <option value="destornillador">Destornillador: $8000</option>
+      <!-- Opción de destornillador con su valor y precio -->
+      <option value="sierra">Sierra: $25000</option>
+      <!-- Opción de sierra con su valor y precio -->
+      <option value="puntillas">puntillas (paquete): $500</option>
+      <!-- Opción de puntillas con su valor y precio -->
+      <option value="serrucho">serrucho: $30000</option>
+      <!-- Opción de serrucho con su valor y precio -->
+    </select>
+
+    <br><br>
+    <!-- Saltos de línea para dar espacio entre el menú desplegable y los botones -->
+
+    <button onclick="calcularTotal()">Agregar al Carrito</button>
+    <!-- Botón que llama a la función calcularTotal() cuando se hace clic -->
+
+    <button onclick="verCarrito()">Ver Carrito</button>
+    <!-- Botón que llama a la función verCarrito() cuando se hace clic -->
+
+    <button onclick="finalizarCompra()">Finalizar Compra</button>
+    <!-- Botón que llama a la función finalizarCompra() cuando se hace clic -->
+
+    <div id="carrito"></div>
+    <!-- Un contenedor con el id "carrito" que se utilizará para mostrar los elementos seleccionados -->
+  </div>
+
+</body>
+</html>

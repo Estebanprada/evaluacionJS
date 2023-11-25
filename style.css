@@ -1,0 +1,45 @@
+/* Estilos para los elementos h1 (encabezado de nivel 1) */
+h1 {
+  text-align: center;            /* Centrar el texto */
+  background-color: black;       /* Fondo negro */
+  color: rgb(255, 230, 0);        /* Texto amarillo claro */
+  padding: 2%;                    /* Espaciado interno del 2% del ancho del elemento */
+}
+
+/* Estilos para el cuerpo del documento */
+body {
+  background-image: url(IMG/ferreteria1.png);  /* Imagen de fondo */
+  font-family: 'Arial', sans-serif;            /* Tipo de fuente */
+  text-align: center;                         /* Centrar el texto */
+  margin: 20px;                               /* Márgenes exteriores de 20px */
+}
+
+/* Estilos para el elemento select (menú desplegable) */
+select {
+  padding: 10px;               /* Espaciado interno de 10px */
+  font-size: 16px;             /* Tamaño de fuente de 16px */
+}
+
+/* Estilos para los botones */
+button {
+  padding: 10px 20px;                      /* Espaciado interno de 10px arriba/abajo, 20px izquierda/derecha */
+  font-size: 16px;                        /* Tamaño de fuente de 16px */
+  background-color: #020202;              /* Fondo negro oscuro */
+  color: rgb(255, 230, 0);                 /* Texto amarillo claro */
+  border: none;                           /* Sin bordes */
+  border-radius: 4px;                      /* Esquinas redondeadas de 4px */
+  cursor: pointer;                        /* Cambia el cursor al pasar sobre el botón */
+  margin: 5px;                            /* Márgenes exteriores de 5px */
+}
+
+/* Estilos para el contenedor principal con la clase "contenedor" */
+.contenedor {
+  max-width: 500px;            /* Ancho máximo del contenedor de 500px */
+  margin: 0 auto;              /* Centrar el contenedor */
+  padding: 20px;               /* Espaciado interno de 20px */
+}
+
+/* Estilos para el elemento con id "pedido" */
+#pedido {
+  margin-top: 20px;            /* Margen superior de 20px */
+}
